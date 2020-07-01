@@ -31,7 +31,7 @@ const Intro = props => (
 const containerIntro = {
     paddingBottom: '1rem',
     paddingTop: '1rem',
-    background: 'darkgray',
+    background: 'linear-gradient(90deg, rgba(74,74,74,1) 65%, rgba(2,128,144,1) 100%)',
     textAlign: 'left',
     color: 'white'
 }

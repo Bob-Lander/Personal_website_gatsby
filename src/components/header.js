@@ -12,6 +12,7 @@ const Header = ({ siteTitle }) => (
       </h1>
       <Menu/>
     </div>
+
   </header>
 )
 
@@ -28,7 +29,10 @@ const divHeader = {
 }
 
 const headerHeader = {
-  background: "linear-gradient(180deg, rgba(255,124,0,1) 52%, rgba(255,0,228,1) 100%)",
+  background: "#05668D",
+  borderBottom: "solid",
+  borderWidth: "0.5em",
+  borderColor: "#02C39A"
 }
 
 Header.propTypes = {
